@@ -1,0 +1,12 @@
+# Hello World Program in Python. 
+# Is Simple and Avoids Side-Effects
+# (Yes I could just say print("Hello World") but where's the fun in that!)
+
+def hello_world():
+    return "Hello World!"
+     
+def main():
+    message = hello_world()
+    print(message)
+    
+main()
